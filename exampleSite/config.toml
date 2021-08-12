@@ -1,146 +1,82 @@
-baseURL = "https://examplesite.netlify.com"
-disableLanguages = []
-disqusShortname = ""
-paginate = "6"
-summaryLength = "15"
-theme = "meghna-hugo"
-themesDir = "../.."
-title = "Meghna"
-[Languages.en]
-contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-home = "Home"
-languageCode = "en-us"
-languageName = "En"
-weight = 1
-[[Languages.en.menu.main]]
-name = "about"
-url = "#about"
-weight = 1
-[[Languages.en.menu.main]]
-name = "services"
-url = "#services"
-weight = 2
-[[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
-[[Languages.en.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-[[Languages.en.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-[Languages.fr]
-contentDir = "content/french"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
-weight = 2
-[[Languages.fr.menu.main]]
-name = "sur"
-url = "#about"
-weight = 1
-[[Languages.fr.menu.main]]
-name = "un service"
-url = "#services"
-weight = 2
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
-weight = 3
-[[Languages.fr.menu.main]]
-name = "équipe"
-url = "#team"
-weight = 4
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-[params]
-author = "Themefisher"
-description = "Responsive Multipurpose Parallax Hugo Template"
-google_analytics_id = ""
-logo = "images/logo.png"
-post_share = true
-[params.cookies]
-enable = false
-expire_days = 2
-[params.map]
-enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
-[[params.plugins.js]]
-link = "plugins/jquery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
-[[params.plugins.js]]
-link = "plugins/lazy-load/lozad.min.js"
-[[params.plugins.js]]
-link = "plugins/google-map/map.js"
-[params.preloader]
-enable = false
-preloader = "images/logo.png"
-[[params.social]]
-icon = "ti-facebook"
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
-icon = "ti-youtube"
-link = "#"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
-[[params.social]]
-icon = "ti-dribbble"
-link = "#"
-[[params.social]]
-icon = "ti-pinterest"
-link = "#"
+baseURL: https://examplesite.com
+title: PulseX
+theme: meghna-hugo
+paginate: '6'
+summaryLength: '15'
+disqusShortname: ''
+disableLanguages: []
+params:
+  author: Themefisher
+  cookies:
+    enable: no
+    expire_days: 2
+  description: Responsive Multipurpose Parallax Hugo Template
+  google_analytics_id: ''
+  logo: images/logo.png
+  map:
+    enable: no
+    gmap_api: https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
+    map_latitude: '51.5223477'
+    map_longitude: '-0.1622023'
+    map_marker: images/marker.png
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themify-icons/themify-icons.css
+      - link: plugins/magnific-popup/magnific-popup.css
+      - link: plugins/slick/slick.css
+      - link: https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap
+    js:
+      - link: plugins/jquery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/shuffle/shuffle.min.js
+      - link: plugins/magnific-popup/jquery.magnific-popup.min.js
+      - link: plugins/lazy-load/lozad.min.js
+      - link: plugins/google-map/map.js
+  post_share: yes
+  preloader:
+    enable: yes
+    preloader: images/logo.png
+  social:
+    - icon: ti-facebook
+      link: '#'
+    - icon: ti-twitter-alt
+      link: '#'
+    - icon: ti-youtube
+      link: '#'
+    - icon: ti-linkedin
+      link: '#'
+    - icon: ti-dribbble
+      link: '#'
+    - icon: ti-pinterest
+      link: '#'
+Languages:
+  en:
+    contentDir: content/english
+    copyright: 
+    home: Home
+    languageCode: en-us
+    languageName: En
+    menu:
+      main:
+        - name: about
+          url: '#about'
+          weight: 1
+        - name: services
+          url: '#services'
+          weight: 2
+        - name: skills
+          url: '#skills'
+          weight: 3
+        - name: team
+          url: '#team'
+          weight: 4
+        - name: blog
+          url: '#blog'
+          weight: 5
+        - name: contact
+          url: '#contact'
+          weight: 6
+    weight: 1
+  
