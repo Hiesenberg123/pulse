@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "Best of technology and human-led analysis to unlock deeply-buried insights"
+  content : "We have a highly experienced team of analysts and consultants to give you real time insight into all the conversation happening around your interest over internet using most advanced analytical tools"
+  button:
+    enable : true
+    label : "Start a project with us"
+    link : "#contact"

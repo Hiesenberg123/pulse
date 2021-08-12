@@ -1,0 +1,34 @@
+################################# Service #################################
+service:
+  enable : true
+  title : Our Services
+  service_item :
+    # service item loop
+    - name : Sentiment Analysis
+      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
+      content : We have developed ML models to assign sentiment to any new content coming up. It will be helpful in understanding the people's perception about success/ failure of any particular campaign/ initiative/ issue of interest to the client
+      
+    # service item loop
+    - name : Market Landscaping and Brand Performance
+      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      content : Digital landscape is evovling at a much faster pace. We provide services in identifying digital landscape of any particular market segment, its general public reviews, top performers and KPIs leading to it, etc.
+      
+    # service item loop
+    - name : Narrative Identification
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : In always-on world, a marketer's job is never fully finished, which is why we provide a series of services focused on helping you stay on top of your digital strategy and marketing performance.
+      
+    # service item loop
+    - name : Online Surveys
+      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      content : We also conduct online surveys for for various purposes viz. market research, political polls or government performance assessments. Our expertise in digital landscape help us in acquiring the representative sample set for surveys
+      
+    # service item loop
+    - name : Dashboarding
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : We provide different dashboards for real time visualisation of different results. Dashboards are customizable to the needs and requirements of client. We also build dashboards for traders, brokers and investors
+      
+    # service item loop
+    - name : Consultancy
+      icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      content : We provide assistance to client in improving their digital presence and outreach through recommendations and actionables at regular intervals. We help client in preparing media, social media as well as third party strategies

@@ -1,0 +1,27 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : We’re A Digital Space Analyst
+  content : "We provide a range of analysis of conversations happening on digital space regarding your entity/ product/ cause/ brand/ yourself. We are also expert in providing consultancy to improve digital presence of your concerned body/ entity/ brand/ product"
+  feature_item : 
+      # feature item loop
+    - title : Text Analysis
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : We do various type of text analysis exercises over the contents available on the digital space. Analysis such as sentiment analysis, word correlation analysis, tf-idf, word frequency, etc.
+      
+      # feature item loop
+    - title : Representative Sample Space
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : We cover range of sources under our study covering different social media platforms, digital news portals, discussion forums with appropriate assigned weightagge for balanced results
+
+      # feature item loop
+    - title : Dashboarding and Customization
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Dashboarding for visualisation of various insights and results on a real time basis. It can be customised according to the requirement of client or project
+      
+      # feature item loop
+    - title : Consultancy
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Not only for the research, we have expertise in providing valuable suggestions and actionables to improve the digital presence of respective entity
