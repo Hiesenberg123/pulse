@@ -3,7 +3,7 @@ contact:
   enable : true
   title : Contact Us
   subtitle : PulseX Private Limited
-  content : 
+  content : Public Sentiment Barometer
 
   # Contact details
   contact_list:
@@ -11,10 +11,10 @@ contact:
       info : "New Delhi, India"
       
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: +91 750xxxxxxx"
+      info : "Phone: +91 7503838327"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: hello@pulsex.co.in"
+      info : "Email: info@pulsex.co.in"
 
 
   # Contact form
